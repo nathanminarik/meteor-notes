@@ -9,7 +9,7 @@ export default class Signup extends React.Component{
       error: ""
     };
   }
-  
+
   createAccount (e) {
     e.preventDefault();
 
@@ -50,39 +50,4 @@ export default class Signup extends React.Component{
       </div>
     )
   }
-
-  /*// Sample state code
-  constructor(props) {
-    super (props);
-
-    this.state = {
-      count: this.props.count || 0
-    };
-  }
-
-  increment () {
-    this.setState({
-      count: this.state.count + 1
-    })
-  }
-
-  decrement () {
-    this.setState({
-      count: this.state.count - 1
-    })
-  }
-
-  render(){
-    return (
-      <div>
-        <h1>Signup for Short Link</h1>
-        <p>{this.state.count}</p>
-        <p>
-          <button onClick={this.increment.bind(this)}>+1</button>
-          <button onClick={this.decrement.bind(this)}>-1</button>
-        </p>
-        <Link to="/">Have an Account?</Link>
-      </div>
-    )
-  }*/
 }
