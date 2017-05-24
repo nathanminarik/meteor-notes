@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Accounts } from 'meteor/accounts-base';
 
 const PrivateHeader = (props) => {
+    
     return (
         <div>
             <h1>{props.title}</h1>
