@@ -1,10 +1,19 @@
 .boxed-view {
     align-items: center;
-    background: $boxed-view-overlay-bg;
+    background-color: $boxed-view-overlay-bg;
     display: flex;
     height: 100vh;
     justify-content: center;
     width: 100vw;
+}
+
+.boxed-view--modal {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: fade-out($boxed-view-overlay-bg, .3); 
 }
 
 .boxed-view__box {
